@@ -127,7 +127,7 @@ jobs:
 
       - name: 编译
         run: |
-          make -j$(nproc) || make -j1 V=s
+          make -j$(nproc) || make -j2 V=s
 
       - name: 整理固件目录
         run: |
